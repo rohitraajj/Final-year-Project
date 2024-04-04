@@ -1,4 +1,4 @@
-# Fake Product Identification using Blockchain
+# Counterfeit Product Detection using Blockchain
 
 ## Packages Required:-
 - Truffle v5.6.7 (core: 5.6.7)
@@ -9,14 +9,14 @@
 - npm 7.5.1
 
 ## Other Requirements:-
-1. Any chromium based browser i.e. Chrome 
+1. Any browser i.e. Chrome, Microsoft Edge 
 2. Metamask browser extension
     
 ## setup process 
 
 1. Clone the project
 ```
-git clone https://github.com/A4ANK/Fake-Product-Identification.git
+git clone [https://github.com/A4ANK/Fake-Product-Identification.git](https://github.com/rohitraajj/Final-year-Project)
 ```
 2. Go to the project folder, open terminal there and run following command to install required node_modules:-
 ```
@@ -27,12 +27,9 @@ npm install
 truffle compile
 ```
 4. Open Ganache, (to setup local blockchain)
-    - crerate new workspace
-    - add truffle-config.js  in truffle project 
-    - change port to 7545 in server settings (same as port in truffle-config.js)
+    - Click on QuickStart
 5. In chrome, open metamask 
    - add new test network using  
-        - NETWORK ID (i.e. 5777 ,from Ganache Server settings) 
         - RPC SERVER (i.e HTTP://127.0.0.1:8545 ,from Ganache Server settings)
         - CHAIN CODE (i.e. 1337)
    - import account using private key of any account from local blockchain available in Ganache.
