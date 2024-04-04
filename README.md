@@ -30,7 +30,7 @@ truffle compile
     - Click on QuickStart
 5. In chrome, open metamask 
    - add new test network using  
-        - RPC SERVER (i.e HTTP://127.0.0.1:8545 ,from Ganache Server settings)
+        - RPC SERVER (i.e HTTP://127.0.0.1:7545 ,from Ganache Server settings)
         - CHAIN CODE (i.e. 1337)
    - import account using private key of any account from local blockchain available in Ganache.
 6. In terminal, run following commands:-
